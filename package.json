@@ -1,0 +1,16 @@
+{
+  "name": "broadcast-websocket",
+  "version": "1.0.0",
+  "description": "Simple server to broadcast a message to everyone connected",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rithik Jain",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ws": "^7.4.6"
+  }
+}
